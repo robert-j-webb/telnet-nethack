@@ -5,7 +5,11 @@
   "rules": {
     "trailing-comma": [true],
     "no-console": [false],
-    "prettier": [true, { "singleQuote": true }]
+    "prettier": [true, { "singleQuote": true }],
+    "only-arrow-functions": false
   },
+  "include": [
+    "src/**/*"
+  ],
   "rulesDirectory": ["tslint-plugin-prettier"]
 }
